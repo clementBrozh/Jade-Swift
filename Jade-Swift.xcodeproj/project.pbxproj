@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6552CDE015BC9EAB1A1BCCC /* libPods-Jade-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D82C7C1AB0233B556D03756 /* libPods-Jade-Swift.a */; };
+		4B358A774DC6440F7A28F6D5 /* Pods_Jade_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0055F87D393F84552D3B38AC /* Pods_Jade_Swift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DF37DB071BB1E200000FE952 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF37DB061BB1E200000FE952 /* MapKit.framework */; };
 		DFD12D2E1BB1D82E00EF6079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */; };
-		DFD12D301BB1D82E00EF6079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2F1BB1D82E00EF6079 /* ViewController.swift */; };
+		DFD12D301BB1D82E00EF6079 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */; };
 		DFD12D331BB1D82E00EF6079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD12D311BB1D82E00EF6079 /* Main.storyboard */; };
 		DFD12D361BB1D82E00EF6079 /* Jade_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D341BB1D82E00EF6079 /* Jade_Swift.xcdatamodeld */; };
 		DFD12D381BB1D82E00EF6079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD12D371BB1D82E00EF6079 /* Assets.xcassets */; };
@@ -36,12 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D82C7C1AB0233B556D03756 /* libPods-Jade-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jade-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0055F87D393F84552D3B38AC /* Pods_Jade_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jade_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9D557944F785BB992D9BD3 /* Pods-Jade-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jade-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		87C958952A04AB216A0D82C0 /* Pods-Jade-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jade-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		DF37DB061BB1E200000FE952 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DFD12D2A1BB1D82E00EF6079 /* Jade-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jade-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFD12D2F1BB1D82E00EF6079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		DFD12D321BB1D82E00EF6079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFD12D351BB1D82E00EF6079 /* Jade_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jade_Swift.xcdatamodel; sourceTree = "<group>"; };
 		DFD12D371BB1D82E00EF6079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6552CDE015BC9EAB1A1BCCC /* libPods-Jade-Swift.a in Frameworks */,
+				DF37DB071BB1E200000FE952 /* MapKit.framework in Frameworks */,
+				4B358A774DC6440F7A28F6D5 /* Pods_Jade_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +87,8 @@
 		5C62AD4A8692DB328E0C45B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2D82C7C1AB0233B556D03756 /* libPods-Jade-Swift.a */,
+				DF37DB061BB1E200000FE952 /* MapKit.framework */,
+				0055F87D393F84552D3B38AC /* Pods_Jade_Swift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */,
-				DFD12D2F1BB1D82E00EF6079 /* ViewController.swift */,
+				DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */,
 				DFD12D311BB1D82E00EF6079 /* Main.storyboard */,
 				DFD12D371BB1D82E00EF6079 /* Assets.xcassets */,
 				DFD12D391BB1D82E00EF6079 /* LaunchScreen.storyboard */,
@@ -164,6 +168,7 @@
 				DFD12D271BB1D82E00EF6079 /* Frameworks */,
 				DFD12D281BB1D82E00EF6079 /* Resources */,
 				6658743DD77E62A0C81D207E /* Copy Pods Resources */,
+				A6270005709164F8FD50810B /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,6 +226,11 @@
 				TargetAttributes = {
 					DFD12D291BB1D82E00EF6079 = {
 						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					DFD12D401BB1D82E00EF6079 = {
 						CreatedOnToolsVersion = 7.0;
@@ -310,6 +320,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A6270005709164F8FD50810B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -317,7 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFD12D301BB1D82E00EF6079 /* ViewController.swift in Sources */,
+				DFD12D301BB1D82E00EF6079 /* MapViewController.swift in Sources */,
 				DFD12D361BB1D82E00EF6079 /* Jade_Swift.xcdatamodeld in Sources */,
 				DFD12D2E1BB1D82E00EF6079 /* AppDelegate.swift in Sources */,
 			);
@@ -460,9 +485,27 @@
 			baseConfigurationReference = 7C9D557944F785BB992D9BD3 /* Pods-Jade-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
 				INFOPLIST_FILE = "Jade-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brozh.Jade-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -473,9 +516,27 @@
 			baseConfigurationReference = 87C958952A04AB216A0D82C0 /* Pods-Jade-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
 				INFOPLIST_FILE = "Jade-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"QuartzCore\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brozh.Jade-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

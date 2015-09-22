@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6552CDE015BC9EAB1A1BCCC /* libPods-Jade-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D82C7C1AB0233B556D03756 /* libPods-Jade-Swift.a */; };
 		DFD12D2E1BB1D82E00EF6079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */; };
 		DFD12D301BB1D82E00EF6079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2F1BB1D82E00EF6079 /* ViewController.swift */; };
 		DFD12D331BB1D82E00EF6079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD12D311BB1D82E00EF6079 /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D82C7C1AB0233B556D03756 /* libPods-Jade-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jade-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9D557944F785BB992D9BD3 /* Pods-Jade-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jade-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		87C958952A04AB216A0D82C0 /* Pods-Jade-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jade-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		DFD12D2A1BB1D82E00EF6079 /* Jade-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jade-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD12D2F1BB1D82E00EF6079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6552CDE015BC9EAB1A1BCCC /* libPods-Jade-Swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C62AD4A8692DB328E0C45B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D82C7C1AB0233B556D03756 /* libPods-Jade-Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFD12D211BB1D82E00EF6079 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,8 @@
 				DFD12D441BB1D82E00EF6079 /* Jade-SwiftTests */,
 				DFD12D4F1BB1D82E00EF6079 /* Jade-SwiftUITests */,
 				DFD12D2B1BB1D82E00EF6079 /* Products */,
+				E2CEB3B108AA414B728645F4 /* Pods */,
+				5C62AD4A8692DB328E0C45B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +143,15 @@
 			path = "Jade-SwiftUITests";
 			sourceTree = "<group>";
 		};
+		E2CEB3B108AA414B728645F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C9D557944F785BB992D9BD3 /* Pods-Jade-Swift.debug.xcconfig */,
+				87C958952A04AB216A0D82C0 /* Pods-Jade-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFD12D551BB1D82E00EF6079 /* Build configuration list for PBXNativeTarget "Jade-Swift" */;
 			buildPhases = (
+				4E6180A4757DC730D6AB3795 /* Check Pods Manifest.lock */,
 				DFD12D261BB1D82E00EF6079 /* Sources */,
 				DFD12D271BB1D82E00EF6079 /* Frameworks */,
 				DFD12D281BB1D82E00EF6079 /* Resources */,
+				6658743DD77E62A0C81D207E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +278,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E6180A4757DC730D6AB3795 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6658743DD77E62A0C81D207E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DFD12D261BB1D82E00EF6079 /* Sources */ = {
@@ -398,9 +457,11 @@
 		};
 		DFD12D561BB1D82E00EF6079 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9D557944F785BB992D9BD3 /* Pods-Jade-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jade-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brozh.Jade-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,9 +470,11 @@
 		};
 		DFD12D571BB1D82E00EF6079 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C958952A04AB216A0D82C0 /* Pods-Jade-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jade-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brozh.Jade-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +548,7 @@
 				DFD12D571BB1D82E00EF6079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFD12D581BB1D82E00EF6079 /* Build configuration list for PBXNativeTarget "Jade-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +557,7 @@
 				DFD12D5A1BB1D82E00EF6079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFD12D5B1BB1D82E00EF6079 /* Build configuration list for PBXNativeTarget "Jade-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +566,7 @@
 				DFD12D5D1BB1D82E00EF6079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

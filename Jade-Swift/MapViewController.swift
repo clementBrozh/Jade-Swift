@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import JadeKit
 
 class MapViewController: UIViewController {
 
@@ -17,13 +18,26 @@ class MapViewController: UIViewController {
         super.viewDidLoad()
 
         self.initMap()
+        self.loadBuses()
     }
 
-    func initMap() {
+    private func initMap() {
         let rennesCoordinate = CLLocationCoordinate2D(latitude: 48.1119800, longitude: -1.6742900)
         let region = MKCoordinateRegion(center: rennesCoordinate, span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
 
         self.map.setRegion(region, animated: true)
     }
-}
 
+    private func loadBuses() {
+        JadeKit.getBusLive { (buses, error) in
+            for bus in buses {
+                let annotation = MKPointAnnotation()
+                annotation.title    = "Bus \(bus.lineShortName)"
+                annotation.subtitle = "vers \(bus.destination)"
+                annotation.coordinate = bus.coordinate
+                self.map.addAnnotation(annotation)
+            }
+        }
+
+    }
+}

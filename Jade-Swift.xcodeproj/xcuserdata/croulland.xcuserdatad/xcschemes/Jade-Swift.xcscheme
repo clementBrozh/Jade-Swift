@@ -48,6 +48,16 @@
                ReferencedContainer = "container:Jade-Swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DF37DB151BB1E74F000FE952"
+               BuildableName = "JadeKitTests.xctest"
+               BlueprintName = "JadeKitTests"
+               ReferencedContainer = "container:Jade-Swift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

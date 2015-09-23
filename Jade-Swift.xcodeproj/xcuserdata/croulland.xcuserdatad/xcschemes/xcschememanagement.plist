@@ -9,9 +9,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>JadeKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>DF37DB0C1BB1E74F000FE952</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF37DB151BB1E74F000FE952</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DFD12D291BB1D82E00EF6079</key>
 		<dict>
 			<key>primary</key>

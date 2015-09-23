@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1428534C3E5465919FCF6906 /* Pods_JadeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F98FB63265E94C2CD9EF44 /* Pods_JadeKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4B358A774DC6440F7A28F6D5 /* Pods_Jade_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0055F87D393F84552D3B38AC /* Pods_Jade_Swift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DCCF51ED8E6FABE543A16457 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE3A6D06AD7F00715810D10 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DF37DB071BB1E200000FE952 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF37DB061BB1E200000FE952 /* MapKit.framework */; };
+		DF37DB101BB1E74F000FE952 /* JadeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF37DB0F1BB1E74F000FE952 /* JadeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF37DB171BB1E74F000FE952 /* JadeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF37DB0D1BB1E74F000FE952 /* JadeKit.framework */; settings = {ASSET_TAGS = (); }; };
+		DF37DB1E1BB1E74F000FE952 /* JadeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37DB1D1BB1E74F000FE952 /* JadeKitTests.swift */; };
+		DF37DB221BB1E74F000FE952 /* JadeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF37DB0D1BB1E74F000FE952 /* JadeKit.framework */; };
+		DF37DB231BB1E74F000FE952 /* JadeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF37DB0D1BB1E74F000FE952 /* JadeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF37DB2C1BB1E996000FE952 /* JKDataExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37DB2B1BB1E996000FE952 /* JKDataExploreService.swift */; settings = {ASSET_TAGS = (); }; };
+		DF37DB311BB1EA6C000FE952 /* JKBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37DB301BB1EA6C000FE952 /* JKBus.swift */; settings = {ASSET_TAGS = (); }; };
+		DF8AB0051BB1F6AA00738CE3 /* JKDataExploreService.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF37DB2B1BB1E996000FE952 /* JKDataExploreService.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF8AB0071BB2891F00738CE3 /* JadeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AB0061BB2891F00738CE3 /* JadeKit.swift */; settings = {ASSET_TAGS = (); }; };
+		DF8AB0081BB2898000738CE3 /* JadeKit.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF8AB0061BB2891F00738CE3 /* JadeKit.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFD12D2E1BB1D82E00EF6079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */; };
 		DFD12D301BB1D82E00EF6079 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */; };
 		DFD12D331BB1D82E00EF6079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD12D311BB1D82E00EF6079 /* Main.storyboard */; };
@@ -20,6 +32,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DF37DB181BB1E74F000FE952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD12D221BB1D82E00EF6079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF37DB0C1BB1E74F000FE952;
+			remoteInfo = JadeKit;
+		};
+		DF37DB1A1BB1E74F000FE952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD12D221BB1D82E00EF6079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD12D291BB1D82E00EF6079;
+			remoteInfo = "Jade-Swift";
+		};
+		DF37DB201BB1E74F000FE952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD12D221BB1D82E00EF6079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF37DB0C1BB1E74F000FE952;
+			remoteInfo = JadeKit;
+		};
 		DFD12D421BB1D82E00EF6079 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DFD12D221BB1D82E00EF6079 /* Project object */;
@@ -36,11 +69,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DF37DB271BB1E74F000FE952 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DF37DB231BB1E74F000FE952 /* JadeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0055F87D393F84552D3B38AC /* Pods_Jade_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jade_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E853BD099F727F53256CFAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		68A350805BEF6160354113E7 /* Pods-JadeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-JadeKit/Pods-JadeKit.release.xcconfig"; sourceTree = "<group>"; };
+		6A1248EE352B57E5828F5876 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7C9D557944F785BB992D9BD3 /* Pods-Jade-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jade-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		87C958952A04AB216A0D82C0 /* Pods-Jade-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jade-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		9BE3A6D06AD7F00715810D10 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFFCA8A2162A53667579761 /* Pods-JadeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JadeKit/Pods-JadeKit.debug.xcconfig"; sourceTree = "<group>"; };
 		DF37DB061BB1E200000FE952 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DF37DB0D1BB1E74F000FE952 /* JadeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JadeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF37DB0F1BB1E74F000FE952 /* JadeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeKit.h; sourceTree = "<group>"; };
+		DF37DB111BB1E74F000FE952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF37DB161BB1E74F000FE952 /* JadeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JadeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF37DB1D1BB1E74F000FE952 /* JadeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JadeKitTests.swift; sourceTree = "<group>"; };
+		DF37DB1F1BB1E74F000FE952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF37DB2B1BB1E996000FE952 /* JKDataExploreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKDataExploreService.swift; sourceTree = "<group>"; };
+		DF37DB301BB1EA6C000FE952 /* JKBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKBus.swift; path = Model/JKBus.swift; sourceTree = "<group>"; };
+		DF8AB0061BB2891F00738CE3 /* JadeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JadeKit.swift; sourceTree = "<group>"; };
 		DFD12D2A1BB1D82E00EF6079 /* Jade-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jade-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -55,15 +116,34 @@
 		DFD12D4C1BB1D82E00EF6079 /* Jade-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jade-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12D501BB1D82E00EF6079 /* Jade_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jade_SwiftUITests.swift; sourceTree = "<group>"; };
 		DFD12D521BB1D82E00EF6079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F98FB63265E94C2CD9EF44 /* Pods_JadeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JadeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DF37DB091BB1E74F000FE952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1428534C3E5465919FCF6906 /* Pods_JadeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF37DB131BB1E74F000FE952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF37DB171BB1E74F000FE952 /* JadeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DFD12D271BB1D82E00EF6079 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DF37DB071BB1E200000FE952 /* MapKit.framework in Frameworks */,
+				DF37DB221BB1E74F000FE952 /* JadeKit.framework in Frameworks */,
 				4B358A774DC6440F7A28F6D5 /* Pods_Jade_Swift.framework in Frameworks */,
+				DCCF51ED8E6FABE543A16457 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,8 +169,55 @@
 			children = (
 				DF37DB061BB1E200000FE952 /* MapKit.framework */,
 				0055F87D393F84552D3B38AC /* Pods_Jade_Swift.framework */,
+				F1F98FB63265E94C2CD9EF44 /* Pods_JadeKit.framework */,
+				9BE3A6D06AD7F00715810D10 /* Pods.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF37DB0E1BB1E74F000FE952 /* JadeKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AB0061BB2891F00738CE3 /* JadeKit.swift */,
+				DF37DB2B1BB1E996000FE952 /* JKDataExploreService.swift */,
+				DF37DB2D1BB1EA22000FE952 /* Model */,
+				DFC7FA341BB358A100D33384 /* Support Files */,
+			);
+			path = JadeKit;
+			sourceTree = "<group>";
+		};
+		DF37DB1C1BB1E74F000FE952 /* JadeKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF37DB1D1BB1E74F000FE952 /* JadeKitTests.swift */,
+				DF37DB1F1BB1E74F000FE952 /* Info.plist */,
+			);
+			path = JadeKitTests;
+			sourceTree = "<group>";
+		};
+		DF37DB2D1BB1EA22000FE952 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF37DB301BB1EA6C000FE952 /* JKBus.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DFC7FA331BB3588400D33384 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12D3C1BB1D82E00EF6079 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		DFC7FA341BB358A100D33384 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF37DB0F1BB1E74F000FE952 /* JadeKit.h */,
+				DF37DB111BB1E74F000FE952 /* Info.plist */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 		DFD12D211BB1D82E00EF6079 = {
@@ -99,6 +226,8 @@
 				DFD12D2C1BB1D82E00EF6079 /* Jade-Swift */,
 				DFD12D441BB1D82E00EF6079 /* Jade-SwiftTests */,
 				DFD12D4F1BB1D82E00EF6079 /* Jade-SwiftUITests */,
+				DF37DB0E1BB1E74F000FE952 /* JadeKit */,
+				DF37DB1C1BB1E74F000FE952 /* JadeKitTests */,
 				DFD12D2B1BB1D82E00EF6079 /* Products */,
 				E2CEB3B108AA414B728645F4 /* Pods */,
 				5C62AD4A8692DB328E0C45B0 /* Frameworks */,
@@ -111,6 +240,8 @@
 				DFD12D2A1BB1D82E00EF6079 /* Jade-Swift.app */,
 				DFD12D411BB1D82E00EF6079 /* Jade-SwiftTests.xctest */,
 				DFD12D4C1BB1D82E00EF6079 /* Jade-SwiftUITests.xctest */,
+				DF37DB0D1BB1E74F000FE952 /* JadeKit.framework */,
+				DF37DB161BB1E74F000FE952 /* JadeKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,8 +254,8 @@
 				DFD12D311BB1D82E00EF6079 /* Main.storyboard */,
 				DFD12D371BB1D82E00EF6079 /* Assets.xcassets */,
 				DFD12D391BB1D82E00EF6079 /* LaunchScreen.storyboard */,
-				DFD12D3C1BB1D82E00EF6079 /* Info.plist */,
 				DFD12D341BB1D82E00EF6079 /* Jade_Swift.xcdatamodeld */,
+				DFC7FA331BB3588400D33384 /* Support Files */,
 			);
 			path = "Jade-Swift";
 			sourceTree = "<group>";
@@ -152,13 +283,69 @@
 			children = (
 				7C9D557944F785BB992D9BD3 /* Pods-Jade-Swift.debug.xcconfig */,
 				87C958952A04AB216A0D82C0 /* Pods-Jade-Swift.release.xcconfig */,
+				AEFFCA8A2162A53667579761 /* Pods-JadeKit.debug.xcconfig */,
+				68A350805BEF6160354113E7 /* Pods-JadeKit.release.xcconfig */,
+				1E853BD099F727F53256CFAE /* Pods.debug.xcconfig */,
+				6A1248EE352B57E5828F5876 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		DF37DB0A1BB1E74F000FE952 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF37DB101BB1E74F000FE952 /* JadeKit.h in Headers */,
+				DF8AB0081BB2898000738CE3 /* JadeKit.swift in Headers */,
+				DF8AB0051BB1F6AA00738CE3 /* JKDataExploreService.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		DF37DB0C1BB1E74F000FE952 /* JadeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF37DB241BB1E74F000FE952 /* Build configuration list for PBXNativeTarget "JadeKit" */;
+			buildPhases = (
+				3828E483A3E7DCEA62A179FA /* Check Pods Manifest.lock */,
+				DF37DB081BB1E74F000FE952 /* Sources */,
+				DF37DB091BB1E74F000FE952 /* Frameworks */,
+				DF37DB0A1BB1E74F000FE952 /* Headers */,
+				DF37DB0B1BB1E74F000FE952 /* Resources */,
+				0BF06975EFE9C01EBC772016 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JadeKit;
+			productName = JadeKit;
+			productReference = DF37DB0D1BB1E74F000FE952 /* JadeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF37DB151BB1E74F000FE952 /* JadeKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF37DB281BB1E74F000FE952 /* Build configuration list for PBXNativeTarget "JadeKitTests" */;
+			buildPhases = (
+				DF37DB121BB1E74F000FE952 /* Sources */,
+				DF37DB131BB1E74F000FE952 /* Frameworks */,
+				DF37DB141BB1E74F000FE952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF37DB191BB1E74F000FE952 /* PBXTargetDependency */,
+				DF37DB1B1BB1E74F000FE952 /* PBXTargetDependency */,
+			);
+			name = JadeKitTests;
+			productName = JadeKitTests;
+			productReference = DF37DB161BB1E74F000FE952 /* JadeKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DFD12D291BB1D82E00EF6079 /* Jade-Swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFD12D551BB1D82E00EF6079 /* Build configuration list for PBXNativeTarget "Jade-Swift" */;
@@ -169,10 +356,12 @@
 				DFD12D281BB1D82E00EF6079 /* Resources */,
 				6658743DD77E62A0C81D207E /* Copy Pods Resources */,
 				A6270005709164F8FD50810B /* Embed Pods Frameworks */,
+				DF37DB271BB1E74F000FE952 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DF37DB211BB1E74F000FE952 /* PBXTargetDependency */,
 			);
 			name = "Jade-Swift";
 			productName = "Jade-Swift";
@@ -221,9 +410,17 @@
 		DFD12D221BB1D82E00EF6079 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Brozh;
 				TargetAttributes = {
+					DF37DB0C1BB1E74F000FE952 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DF37DB151BB1E74F000FE952 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DFD12D291BB1D82E00EF6079;
+					};
 					DFD12D291BB1D82E00EF6079 = {
 						CreatedOnToolsVersion = 7.0;
 						SystemCapabilities = {
@@ -258,11 +455,27 @@
 				DFD12D291BB1D82E00EF6079 /* Jade-Swift */,
 				DFD12D401BB1D82E00EF6079 /* Jade-SwiftTests */,
 				DFD12D4B1BB1D82E00EF6079 /* Jade-SwiftUITests */,
+				DF37DB0C1BB1E74F000FE952 /* JadeKit */,
+				DF37DB151BB1E74F000FE952 /* JadeKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DF37DB0B1BB1E74F000FE952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF37DB141BB1E74F000FE952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DFD12D281BB1D82E00EF6079 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,6 +503,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0BF06975EFE9C01EBC772016 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JadeKit/Pods-JadeKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3828E483A3E7DCEA62A179FA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		4E6180A4757DC730D6AB3795 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,12 +575,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DF37DB081BB1E74F000FE952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF37DB2C1BB1E996000FE952 /* JKDataExploreService.swift in Sources */,
+				DF8AB0071BB2891F00738CE3 /* JadeKit.swift in Sources */,
+				DF37DB311BB1EA6C000FE952 /* JKBus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF37DB121BB1E74F000FE952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF37DB1E1BB1E74F000FE952 /* JadeKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DFD12D261BB1D82E00EF6079 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +628,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DF37DB191BB1E74F000FE952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF37DB0C1BB1E74F000FE952 /* JadeKit */;
+			targetProxy = DF37DB181BB1E74F000FE952 /* PBXContainerItemProxy */;
+		};
+		DF37DB1B1BB1E74F000FE952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD12D291BB1D82E00EF6079 /* Jade-Swift */;
+			targetProxy = DF37DB1A1BB1E74F000FE952 /* PBXContainerItemProxy */;
+		};
+		DF37DB211BB1E74F000FE952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF37DB0C1BB1E74F000FE952 /* JadeKit */;
+			targetProxy = DF37DB201BB1E74F000FE952 /* PBXContainerItemProxy */;
+		};
 		DFD12D431BB1D82E00EF6079 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DFD12D291BB1D82E00EF6079 /* Jade-Swift */;
@@ -399,6 +675,75 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DF37DB251BB1E74F000FE952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEFFCA8A2162A53667579761 /* Pods-JadeKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JadeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brozh.JadeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF37DB261BB1E74F000FE952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A350805BEF6160354113E7 /* Pods-JadeKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JadeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brozh.JadeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF37DB291BB1E74F000FE952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JadeKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brozh.JadeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jade-Swift.app/Jade-Swift";
+			};
+			name = Debug;
+		};
+		DF37DB2A1BB1E74F000FE952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JadeKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brozh.JadeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jade-Swift.app/Jade-Swift";
+			};
+			name = Release;
+		};
 		DFD12D531BB1D82E00EF6079 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -435,7 +780,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -473,7 +818,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -485,6 +830,7 @@
 			baseConfigurationReference = 7C9D557944F785BB992D9BD3 /* Pods-Jade-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -516,6 +862,7 @@
 			baseConfigurationReference = 87C958952A04AB216A0D82C0 /* Pods-Jade-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -593,6 +940,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DF37DB241BB1E74F000FE952 /* Build configuration list for PBXNativeTarget "JadeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF37DB251BB1E74F000FE952 /* Debug */,
+				DF37DB261BB1E74F000FE952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF37DB281BB1E74F000FE952 /* Build configuration list for PBXNativeTarget "JadeKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF37DB291BB1E74F000FE952 /* Debug */,
+				DF37DB2A1BB1E74F000FE952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DFD12D251BB1D82E00EF6079 /* Build configuration list for PBXProject "Jade-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

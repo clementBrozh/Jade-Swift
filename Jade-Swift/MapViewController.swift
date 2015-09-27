@@ -15,6 +15,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var map: MKMapView!
 
+    var busesAnnotations = [MapAnnotation]()
+    var stopsAnnotations = [MapAnnotation]()
+
     var managedObjectContext: NSManagedObjectContext!{
         return (UIApplication.sharedApplication().delegate
             as! AppDelegate).managedObjectContext
@@ -51,8 +54,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                     title: title,
                     subtitle: subtitle,
                     type: .Bus)
-                self.map.addAnnotation(annotation)
+                self.busesAnnotations.append(annotation)
             }
+            self.map.addAnnotations(self.busesAnnotations)
             SVProgressHUD.dismiss()
         }
     }
@@ -80,8 +84,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                 title: title,
                 subtitle: subtitle,
                 type: .Stop)
-            self.map.addAnnotation(annotation)
+            self.stopsAnnotations.append(annotation)
         }
+        self.map.addAnnotations(self.stopsAnnotations)
     }
 
     private func getStopsFromCoreData() throws -> [Stop] {
@@ -117,6 +122,11 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     }
 
     @IBAction func showStopsAction(sender: AnyObject) {
-        self.loadStops()
+        if self.stopsAnnotations.isEmpty {
+            self.loadStops()
+        } else {
+            self.map.removeAnnotations(self.stopsAnnotations)
+            self.stopsAnnotations.removeAll()
+        }
     }
 }

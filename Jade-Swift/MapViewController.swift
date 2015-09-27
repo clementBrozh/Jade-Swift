@@ -62,13 +62,13 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         var stops: [Stop]
         do {
             stops = try self.getStopsFromCoreData()
+            if stops.isEmpty {
+                try GTFSParser().parseStops()
+                stops = try self.getStopsFromCoreData()
+            }
         } catch _ as NSError {
             SVProgressHUD.showErrorWithStatus(NSLocalizedString("GET_STOPS_ERROR", comment: "Shown on HUD when core data request failed"))
             return
-        }
-
-        if stops.isEmpty {
-            stops = self.initStopsToCoreData()
         }
 
         for stop in stops {
@@ -84,23 +84,10 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         }
     }
 
-    private func initStopsToCoreData() -> [Stop] {
-        let newStop = NSEntityDescription.insertNewObjectForEntityForName("Stop", inManagedObjectContext: managedObjectContext) as! Stop
-
-        (newStop.name, newStop.latitude, newStop.longitude) = ("TestStop", 48.1290767155, -1.6325301975)
-
-        do{
-            try managedObjectContext.save()
-        } catch let error as NSError{
-            print("Failed to save the new stop. Error = \(error)")
-        }
-
-        return [newStop]
-    }
-
     private func getStopsFromCoreData() throws -> [Stop] {
 
         let fetch = NSFetchRequest(entityName: "Stop")
+        fetch.predicate = NSPredicate(format: "name contains[c] ' c'")
         let stopsFromCoreData = try managedObjectContext.executeFetchRequest(fetch) as [AnyObject]!
         guard let stops = stopsFromCoreData as? [Stop] else {
             throw NSError(domain: "Unable to get stops from core data", code: 500, userInfo: nil)

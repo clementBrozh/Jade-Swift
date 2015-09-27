@@ -26,6 +26,7 @@
 		DF967F701BB8871D00BD1F74 /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = DF967F6F1BB8871D00BD1F74 /* stops.txt */; settings = {ASSET_TAGS = (); }; };
 		DF967F751BB8911300BD1F74 /* Stop+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF967F731BB8911300BD1F74 /* Stop+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
 		DF967F761BB8911300BD1F74 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF967F741BB8911300BD1F74 /* Stop.swift */; settings = {ASSET_TAGS = (); }; };
+		DF967F781BB89FC100BD1F74 /* GTFSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF967F771BB89FC100BD1F74 /* GTFSParser.swift */; settings = {ASSET_TAGS = (); }; };
 		DFD12D2E1BB1D82E00EF6079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */; };
 		DFD12D301BB1D82E00EF6079 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */; };
 		DFD12D331BB1D82E00EF6079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD12D311BB1D82E00EF6079 /* Main.storyboard */; };
@@ -116,6 +117,7 @@
 		DF967F6F1BB8871D00BD1F74 /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
 		DF967F731BB8911300BD1F74 /* Stop+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Stop+CoreDataProperties.swift"; path = "Model/Stop+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DF967F741BB8911300BD1F74 /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stop.swift; path = Model/Stop.swift; sourceTree = "<group>"; };
+		DF967F771BB89FC100BD1F74 /* GTFSParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTFSParser.swift; sourceTree = "<group>"; };
 		DFD12D2A1BB1D82E00EF6079 /* Jade-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jade-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 				DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */,
 				DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */,
 				DF967F6D1BB843B500BD1F74 /* MapAnnotation.swift */,
+				DF967F771BB89FC100BD1F74 /* GTFSParser.swift */,
 				DFD12D311BB1D82E00EF6079 /* Main.storyboard */,
 				DFD12D371BB1D82E00EF6079 /* Assets.xcassets */,
 				DFD12D391BB1D82E00EF6079 /* LaunchScreen.storyboard */,
@@ -629,6 +632,7 @@
 				DFD12D301BB1D82E00EF6079 /* MapViewController.swift in Sources */,
 				DFD12D361BB1D82E00EF6079 /* Jade_Swift.xcdatamodeld in Sources */,
 				DFD12D2E1BB1D82E00EF6079 /* AppDelegate.swift in Sources */,
+				DF967F781BB89FC100BD1F74 /* GTFSParser.swift in Sources */,
 				DF967F6E1BB843B500BD1F74 /* MapAnnotation.swift in Sources */,
 				DF967F751BB8911300BD1F74 /* Stop+CoreDataProperties.swift in Sources */,
 				DF967F761BB8911300BD1F74 /* Stop.swift in Sources */,

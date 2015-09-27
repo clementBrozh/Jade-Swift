@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import CoreData
 import MapKit
 import JadeKit
 
 class MapViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var map: MKMapView!
+
+    var managedObjectContext: NSManagedObjectContext!{
+        return (UIApplication.sharedApplication().delegate
+            as! AppDelegate).managedObjectContext
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +57,57 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         }
     }
 
+    private func loadStops() {
+        
+        var stops: [Stop]
+        do {
+            stops = try self.getStopsFromCoreData()
+        } catch _ as NSError {
+            SVProgressHUD.showErrorWithStatus(NSLocalizedString("GET_STOPS_ERROR", comment: "Shown on HUD when core data request failed"))
+            return
+        }
+
+        if stops.isEmpty {
+            stops = self.initStopsToCoreData()
+        }
+
+        for stop in stops {
+            let title    = stop.name
+            let subtitle = ""
+            let coordinate = CLLocationCoordinate2D(latitude: Double(stop.latitude), longitude: Double(stop.longitude))
+            let annotation = MapAnnotation(
+                coordinate: coordinate,
+                title: title,
+                subtitle: subtitle,
+                type: .Stop)
+            self.map.addAnnotation(annotation)
+        }
+    }
+
+    private func initStopsToCoreData() -> [Stop] {
+        let newStop = NSEntityDescription.insertNewObjectForEntityForName("Stop", inManagedObjectContext: managedObjectContext) as! Stop
+
+        (newStop.name, newStop.latitude, newStop.longitude) = ("TestStop", 48.1290767155, -1.6325301975)
+
+        do{
+            try managedObjectContext.save()
+        } catch let error as NSError{
+            print("Failed to save the new stop. Error = \(error)")
+        }
+
+        return [newStop]
+    }
+
+    private func getStopsFromCoreData() throws -> [Stop] {
+
+        let fetch = NSFetchRequest(entityName: "Stop")
+        let stopsFromCoreData = try managedObjectContext.executeFetchRequest(fetch) as [AnyObject]!
+        guard let stops = stopsFromCoreData as? [Stop] else {
+            throw NSError(domain: "Unable to get stops from core data", code: 500, userInfo: nil)
+        }
+        return stops
+    }
+
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView?{
 
         guard let senderAnnotation = annotation as? MapAnnotation else{
@@ -70,5 +127,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
         return annotationView
         
+    }
+
+    @IBAction func showStopsAction(sender: AnyObject) {
+        self.loadStops()
     }
 }

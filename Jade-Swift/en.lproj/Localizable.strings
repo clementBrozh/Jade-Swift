@@ -9,3 +9,4 @@
 // displayed in HUD
 LOADING="Loading";
 LOADING_ERROR="Loading error";
+GET_STOPS_ERROR="Unable to display stops";

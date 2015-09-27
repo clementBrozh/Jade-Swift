@@ -54,7 +54,13 @@
                             <constraint firstItem="cmI-Uo-thZ" firstAttribute="top" secondItem="0xe-7m-jpK" secondAttribute="bottom" id="pe6-sK-wIJ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Map" id="cLb-fI-xKN"/>
+                    <navigationItem key="navigationItem" title="Map" id="cLb-fI-xKN">
+                        <barButtonItem key="rightBarButtonItem" image="StopPinImage" id="BBq-We-P8I">
+                            <connections>
+                                <action selector="showStopsAction:" destination="l7n-rU-bWg" id="Oj3-rC-JOa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="map" destination="0xe-7m-jpK" id="fPw-af-bdg"/>
                     </connections>
@@ -64,4 +70,7 @@
             <point key="canvasLocation" x="602" y="462"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="StopPinImage" width="24" height="24"/>
+    </resources>
 </document>

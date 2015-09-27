@@ -129,4 +129,12 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             self.stopsAnnotations.removeAll()
         }
     }
+
+    @IBAction func refreshBusesAction(sender: AnyObject) {
+
+        self.map.removeAnnotations(self.busesAnnotations)
+        self.busesAnnotations.removeAll()
+
+        self.loadBuses()
+    }
 }

@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -55,11 +56,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Map" id="cLb-fI-xKN">
-                        <barButtonItem key="rightBarButtonItem" image="StopPinImage" id="BBq-We-P8I">
-                            <connections>
-                                <action selector="showStopsAction:" destination="l7n-rU-bWg" id="Oj3-rC-JOa"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem image="StopPinImage" id="BBq-We-P8I">
+                                <connections>
+                                    <action selector="showStopsAction:" destination="l7n-rU-bWg" id="Oj3-rC-JOa"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="refresh" id="FWv-3f-QFT">
+                                <connections>
+                                    <action selector="refreshBusesAction:" destination="l7n-rU-bWg" id="0l2-hk-kcW"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="map" destination="0xe-7m-jpK" id="fPw-af-bdg"/>

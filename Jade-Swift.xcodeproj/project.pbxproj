@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1428534C3E5465919FCF6906 /* Pods_JadeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F98FB63265E94C2CD9EF44 /* Pods_JadeKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		4B358A774DC6440F7A28F6D5 /* Pods_Jade_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0055F87D393F84552D3B38AC /* Pods_Jade_Swift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7E46977E412D7355D7E9647F /* libPods-Jade-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 583FFBCBFDB280C3409EE658 /* libPods-Jade-Swift.a */; };
 		DCCF51ED8E6FABE543A16457 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE3A6D06AD7F00715810D10 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DF37DB071BB1E200000FE952 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF37DB061BB1E200000FE952 /* MapKit.framework */; };
 		DF37DB101BB1E74F000FE952 /* JadeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF37DB0F1BB1E74F000FE952 /* JadeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,6 +21,7 @@
 		DF8AB0051BB1F6AA00738CE3 /* JKDataExploreService.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF37DB2B1BB1E996000FE952 /* JKDataExploreService.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF8AB0071BB2891F00738CE3 /* JadeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AB0061BB2891F00738CE3 /* JadeKit.swift */; settings = {ASSET_TAGS = (); }; };
 		DF8AB0081BB2898000738CE3 /* JadeKit.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF8AB0061BB2891F00738CE3 /* JadeKit.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF967F641BB82A9D00BD1F74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF967F661BB82A9D00BD1F74 /* Localizable.strings */; };
 		DFD12D2E1BB1D82E00EF6079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */; };
 		DFD12D301BB1D82E00EF6079 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */; };
 		DFD12D331BB1D82E00EF6079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD12D311BB1D82E00EF6079 /* Main.storyboard */; };
@@ -84,8 +85,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0055F87D393F84552D3B38AC /* Pods_Jade_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jade_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E853BD099F727F53256CFAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		583FFBCBFDB280C3409EE658 /* libPods-Jade-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jade-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A350805BEF6160354113E7 /* Pods-JadeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-JadeKit/Pods-JadeKit.release.xcconfig"; sourceTree = "<group>"; };
 		6A1248EE352B57E5828F5876 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7C9D557944F785BB992D9BD3 /* Pods-Jade-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jade-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +103,11 @@
 		DF37DB2B1BB1E996000FE952 /* JKDataExploreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKDataExploreService.swift; sourceTree = "<group>"; };
 		DF37DB301BB1EA6C000FE952 /* JKBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKBus.swift; path = Model/JKBus.swift; sourceTree = "<group>"; };
 		DF8AB0061BB2891F00738CE3 /* JadeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JadeKit.swift; sourceTree = "<group>"; };
+		DF967F5C1BB80AFC00BD1F74 /* Jade-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jade-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF967F601BB8298100BD1F74 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		DF967F611BB8298100BD1F74 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DF967F671BB82A9F00BD1F74 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DF967F691BB82DA500BD1F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DFD12D2A1BB1D82E00EF6079 /* Jade-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jade-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -142,8 +148,8 @@
 			files = (
 				DF37DB071BB1E200000FE952 /* MapKit.framework in Frameworks */,
 				DF37DB221BB1E74F000FE952 /* JadeKit.framework in Frameworks */,
-				4B358A774DC6440F7A28F6D5 /* Pods_Jade_Swift.framework in Frameworks */,
 				DCCF51ED8E6FABE543A16457 /* Pods.framework in Frameworks */,
+				7E46977E412D7355D7E9647F /* libPods-Jade-Swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,9 +174,9 @@
 			isa = PBXGroup;
 			children = (
 				DF37DB061BB1E200000FE952 /* MapKit.framework */,
-				0055F87D393F84552D3B38AC /* Pods_Jade_Swift.framework */,
 				F1F98FB63265E94C2CD9EF44 /* Pods_JadeKit.framework */,
 				9BE3A6D06AD7F00715810D10 /* Pods.framework */,
+				583FFBCBFDB280C3409EE658 /* libPods-Jade-Swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				DFD12D3C1BB1D82E00EF6079 /* Info.plist */,
+				DF967F5C1BB80AFC00BD1F74 /* Jade-Swift-Bridging-Header.h */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
@@ -256,6 +263,7 @@
 				DFD12D391BB1D82E00EF6079 /* LaunchScreen.storyboard */,
 				DFD12D341BB1D82E00EF6079 /* Jade_Swift.xcdatamodeld */,
 				DFC7FA331BB3588400D33384 /* Support Files */,
+				DF967F661BB82A9D00BD1F74 /* Localizable.strings */,
 			);
 			path = "Jade-Swift";
 			sourceTree = "<group>";
@@ -355,7 +363,6 @@
 				DFD12D271BB1D82E00EF6079 /* Frameworks */,
 				DFD12D281BB1D82E00EF6079 /* Resources */,
 				6658743DD77E62A0C81D207E /* Copy Pods Resources */,
-				A6270005709164F8FD50810B /* Embed Pods Frameworks */,
 				DF37DB271BB1E74F000FE952 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -446,6 +453,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = DFD12D211BB1D82E00EF6079;
 			productRefGroup = DFD12D2B1BB1D82E00EF6079 /* Products */;
@@ -481,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFD12D3B1BB1D82E00EF6079 /* LaunchScreen.storyboard in Resources */,
+				DF967F641BB82A9D00BD1F74 /* Localizable.strings in Resources */,
 				DFD12D381BB1D82E00EF6079 /* Assets.xcassets in Resources */,
 				DFD12D331BB1D82E00EF6079 /* Main.storyboard in Resources */,
 			);
@@ -563,21 +572,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jade-Swift/Pods-Jade-Swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6270005709164F8FD50810B /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -656,10 +650,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DF967F661BB82A9D00BD1F74 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF967F671BB82A9F00BD1F74 /* fr */,
+				DF967F691BB82DA500BD1F74 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		DFD12D311BB1D82E00EF6079 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DFD12D321BB1D82E00EF6079 /* Base */,
+				DF967F601BB8298100BD1F74 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -668,6 +672,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DFD12D3A1BB1D82E00EF6079 /* Base */,
+				DF967F611BB8298100BD1F74 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -830,6 +835,7 @@
 			baseConfigurationReference = 7C9D557944F785BB992D9BD3 /* Pods-Jade-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -854,6 +860,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brozh.Jade-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jade-Swift/Jade-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -862,6 +870,7 @@
 			baseConfigurationReference = 87C958952A04AB216A0D82C0 /* Pods-Jade-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -886,6 +895,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brozh.Jade-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jade-Swift/Jade-Swift-Bridging-Header.h";
 			};
 			name = Release;
 		};

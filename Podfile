@@ -3,8 +3,7 @@ platform :ios, '8.0'
 
 target 'Jade-Swift' do
 
-    use_frameworks!
-    pod 'Alamofire', '~> 2.0'
+    pod 'SVProgressHUD'
 
 end
 
@@ -22,6 +21,3 @@ target 'JadeKit' do
     pod 'Alamofire', '~> 2.0'
     
 end
-
-use_frameworks!
-pod 'Alamofire', '~> 2.0'

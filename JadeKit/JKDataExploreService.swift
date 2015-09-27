@@ -16,13 +16,13 @@ class JKDataExploreService {
 
         func parseApiResult(apiResult: AnyObject?) throws -> [JKBus]{
             guard let jsonResult = apiResult as? [String: AnyObject],
-                let records = jsonResult["records"] as? [[String: AnyObject]] else{
-                    return []
+                let records = jsonResult["records"] as? [[String: AnyObject]] else
+            {
+                throw NSError(domain: "Unable to parse API result", code: 500, userInfo: nil)
             }
-
+            
             var buses = [JKBus]()
             for record in records {
-                print(record)
                 if let fields = record["fields"] as? [String: AnyObject],
                     let lineShortName   = fields["nomcourtligne"] as? String,
                     let destination     = fields["destination"]   as? String,

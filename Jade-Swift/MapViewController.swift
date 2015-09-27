@@ -29,7 +29,13 @@ class MapViewController: UIViewController {
     }
 
     private func loadBuses() {
+        SVProgressHUD.showWithStatus(NSLocalizedString("LOADING", comment: "Displayed in HUD"))
         JadeKit.getBusLive { (buses, error) in
+            if let _ = error {
+                SVProgressHUD.showErrorWithStatus(NSLocalizedString("LOADING_ERROR", comment: "Displayed in HUD"))
+                return
+            }
+
             for bus in buses {
                 let annotation = MKPointAnnotation()
                 annotation.title    = "Bus \(bus.lineShortName)"
@@ -37,6 +43,7 @@ class MapViewController: UIViewController {
                 annotation.coordinate = bus.coordinate
                 self.map.addAnnotation(annotation)
             }
+            SVProgressHUD.dismiss()
         }
 
     }

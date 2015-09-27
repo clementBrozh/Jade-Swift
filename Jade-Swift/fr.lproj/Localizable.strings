@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Jade-Swift
+
+  Created by Clément Roulland on 27/09/2015.
+  Copyright © 2015 Brozh. All rights reserved.
+ */
+
+// displayed in HUD
+LOADING="Chargement";
+LOADING_ERROR="Erreur de chargement";

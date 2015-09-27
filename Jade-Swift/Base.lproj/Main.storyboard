@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="-94" y="462"/>
         </scene>
-        <!--Plan-->
+        <!--Map-->
         <scene sceneID="bCp-M1-w73">
             <objects>
                 <viewController id="l7n-rU-bWg" customClass="MapViewController" customModule="Jade_Swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -45,7 +45,7 @@
                             <constraint firstItem="cmI-Uo-thZ" firstAttribute="top" secondItem="0xe-7m-jpK" secondAttribute="bottom" id="pe6-sK-wIJ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Plan" id="cLb-fI-xKN"/>
+                    <navigationItem key="navigationItem" title="Map" id="cLb-fI-xKN"/>
                     <connections>
                         <outlet property="map" destination="0xe-7m-jpK" id="fPw-af-bdg"/>
                     </connections>

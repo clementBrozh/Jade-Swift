@@ -22,6 +22,8 @@
 		DF8AB0071BB2891F00738CE3 /* JadeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AB0061BB2891F00738CE3 /* JadeKit.swift */; settings = {ASSET_TAGS = (); }; };
 		DF8AB0081BB2898000738CE3 /* JadeKit.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF8AB0061BB2891F00738CE3 /* JadeKit.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF967F641BB82A9D00BD1F74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF967F661BB82A9D00BD1F74 /* Localizable.strings */; };
+		DF967F6E1BB843B500BD1F74 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF967F6D1BB843B500BD1F74 /* MapAnnotation.swift */; settings = {ASSET_TAGS = (); }; };
+		DF967F701BB8871D00BD1F74 /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = DF967F6F1BB8871D00BD1F74 /* stops.txt */; settings = {ASSET_TAGS = (); }; };
 		DFD12D2E1BB1D82E00EF6079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */; };
 		DFD12D301BB1D82E00EF6079 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */; };
 		DFD12D331BB1D82E00EF6079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD12D311BB1D82E00EF6079 /* Main.storyboard */; };
@@ -108,6 +110,8 @@
 		DF967F611BB8298100BD1F74 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DF967F671BB82A9F00BD1F74 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DF967F691BB82DA500BD1F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DF967F6D1BB843B500BD1F74 /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		DF967F6F1BB8871D00BD1F74 /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
 		DFD12D2A1BB1D82E00EF6079 /* Jade-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jade-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -212,6 +216,7 @@
 		DFC7FA331BB3588400D33384 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF967F661BB82A9D00BD1F74 /* Localizable.strings */,
 				DFD12D3C1BB1D82E00EF6079 /* Info.plist */,
 				DF967F5C1BB80AFC00BD1F74 /* Jade-Swift-Bridging-Header.h */,
 			);
@@ -258,12 +263,13 @@
 			children = (
 				DFD12D2D1BB1D82E00EF6079 /* AppDelegate.swift */,
 				DFD12D2F1BB1D82E00EF6079 /* MapViewController.swift */,
+				DF967F6D1BB843B500BD1F74 /* MapAnnotation.swift */,
 				DFD12D311BB1D82E00EF6079 /* Main.storyboard */,
 				DFD12D371BB1D82E00EF6079 /* Assets.xcassets */,
 				DFD12D391BB1D82E00EF6079 /* LaunchScreen.storyboard */,
 				DFD12D341BB1D82E00EF6079 /* Jade_Swift.xcdatamodeld */,
+				DF967F6F1BB8871D00BD1F74 /* stops.txt */,
 				DFC7FA331BB3588400D33384 /* Support Files */,
-				DF967F661BB82A9D00BD1F74 /* Localizable.strings */,
 			);
 			path = "Jade-Swift";
 			sourceTree = "<group>";
@@ -489,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFD12D3B1BB1D82E00EF6079 /* LaunchScreen.storyboard in Resources */,
+				DF967F701BB8871D00BD1F74 /* stops.txt in Resources */,
 				DF967F641BB82A9D00BD1F74 /* Localizable.strings in Resources */,
 				DFD12D381BB1D82E00EF6079 /* Assets.xcassets in Resources */,
 				DFD12D331BB1D82E00EF6079 /* Main.storyboard in Resources */,
@@ -600,6 +607,7 @@
 				DFD12D301BB1D82E00EF6079 /* MapViewController.swift in Sources */,
 				DFD12D361BB1D82E00EF6079 /* Jade_Swift.xcdatamodeld in Sources */,
 				DFD12D2E1BB1D82E00EF6079 /* AppDelegate.swift in Sources */,
+				DF967F6E1BB843B500BD1F74 /* MapAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

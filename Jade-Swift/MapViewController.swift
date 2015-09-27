@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import JadeKit
 
-class MapViewController: UIViewController {
+class MapViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var map: MKMapView!
 
@@ -37,14 +37,38 @@ class MapViewController: UIViewController {
             }
 
             for bus in buses {
-                let annotation = MKPointAnnotation()
-                annotation.title    = "Bus \(bus.lineShortName)"
-                annotation.subtitle = "vers \(bus.destination)"
-                annotation.coordinate = bus.coordinate
+                let title    = "Bus \(bus.lineShortName)"
+                let subtitle = "vers \(bus.destination)"
+                let coordinate = bus.coordinate
+                let annotation = MapAnnotation(
+                    coordinate: coordinate,
+                    title: title,
+                    subtitle: subtitle,
+                    type: .Bus)
                 self.map.addAnnotation(annotation)
             }
             SVProgressHUD.dismiss()
         }
+    }
 
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView?{
+
+        guard let senderAnnotation = annotation as? MapAnnotation else{
+            return nil
+        }
+
+        let pinReusableIdentifier = senderAnnotation.type.rawValue
+        var annotationView = mapView.dequeueReusableAnnotationViewWithIdentifier(pinReusableIdentifier)
+
+        if annotationView == nil {
+            annotationView = MKAnnotationView(annotation: senderAnnotation, reuseIdentifier: pinReusableIdentifier)
+            annotationView!.canShowCallout = true
+        }
+
+        let annotationImage = senderAnnotation.type.image
+        annotationView!.image = annotationImage
+
+        return annotationView
+        
     }
 }

@@ -16,8 +16,5 @@ target 'Jade-SwiftUITests' do
 end
 
 target 'JadeKit' do
-
-    use_frameworks!
-    pod 'Alamofire', '~> 2.0'
     
 end

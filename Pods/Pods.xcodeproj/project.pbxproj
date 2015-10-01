@@ -7,45 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		060EC8E87A83D17CF9AA6AA1BD4A0843 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3106D5F5B9B21AC9D5BE575DE72BD /* ServerTrustPolicy.swift */; };
-		0C18C363302C0F35A51737B3D84E1ABC /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB773EE62688FFB6741D51B76C99DD5 /* ParameterEncoding.swift */; };
-		183191831CCA01126B9B33F3B62D546E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E4907564AD9F2CCC5033A43BD9D782 /* Request.swift */; };
 		27C613CD8F0D5500013A024E4636F20C /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */; };
 		2F8C6CAAE593D8F555D0D54C536E3580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
-		30B806CE8CB4709E38D8842E43BCD1AB /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971D50BACADB9F6B0A8932AB3B35D5C /* Error.swift */; };
 		317602D7E2B9A957806A009744DBB727 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */; };
-		44E598F8053CD92ED380E1565F0946C0 /* Pods-JadeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 180588968820B78133EDF80560AF3BBB /* Pods-JadeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B469E34DCB86C10104EC37719EAEC18 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE110D0432D9BF661221E292D49B3E2 /* Alamofire.swift */; };
-		4E4D5F60723047C68CC6E159F77BE83C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B95CC0C5A6E6F723BBA058D2001AB5 /* Manager.swift */; };
-		6ACE1B6B39F79D2F0AF5719C8E4BD6B0 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71243C965C6FB90F4591FB2CCD6D59A1 /* Result.swift */; };
-		73A5CA3A1D94E14EE3A927BAB438EB8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
 		7BE7688304D568BF106470980EB865C7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */; };
-		7D4E3F194DA407CB5BE4C82020C1F77A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C62B8BAF5FC132D39CB99005ACA30A /* Validation.swift */; };
 		89F05D147E1D3780837633BB16691C53 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */; };
-		9CB54A87EB8450388480FBCD78EF0A7B /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381A5404E68D4344EA7805B846E4C14 /* Download.swift */; };
-		A18D1D2BAA34B1A7F641068746658297 /* Pods-JadeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7817F5239B0EAE07FB9B8A6F020D11F /* Pods-JadeKit-dummy.m */; };
 		A2A54A15855FB877676A74789DCF7FAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
 		B0D42E3798828F3B0DFEAE2E8C0A9D5F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */; };
 		B9DCE89E454C383B7E70A9424B6F9777 /* Pods-Jade-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9C755F7A60AFD53BEBA738DF7AF17F /* Pods-Jade-Swift-dummy.m */; };
-		C610A8A805B35C980F122246D9EDA860 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02E7452AD6BCE8D4E78A6AC0011C941 /* Stream.swift */; };
-		D9739929BC8EBCCD207268A93B18842E /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1555620D34B083662E867A34A2D3F81B /* MultipartFormData.swift */; };
-		E40611D1D0588DD30D3860F1183C14E1 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB34E3D0BE4055DDDD0EE84FC8E6EB /* ResponseSerialization.swift */; };
-		E4F08A107BA32B06B999D9C95D37A8DC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1C0851B75B6F9C052148733205F3F2 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E920487C7E9A02A6693829FC15A40A58 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7828F51972D9880CCAB5BAB70178A07 /* Alamofire-dummy.m */; };
-		ED69FD352CBB498BA95CCFF40CA899B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
 		F5ABA31CD2179D1EE0FC3F7183438E56 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */; };
-		F717729EAC7B9BA5D817D1DF40CBB4F0 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD287B58E03103E396BD1C1B8757C54 /* Upload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		86C73CDA8A1FFAA0CBD6F671268BDAF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1938F41059E06C511373D9330EABA3D1;
-			remoteInfo = Alamofire;
-		};
-		9069E287513687605802EBAD0856A51A /* PBXContainerItemProxy */ = {
+		4D922D7D8002C970FC827890A603D0D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -56,82 +30,34 @@
 
 /* Begin PBXFileReference section */
 		004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		06B95CC0C5A6E6F723BBA058D2001AB5 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		0EE110D0432D9BF661221E292D49B3E2 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		0F9C755F7A60AFD53BEBA738DF7AF17F /* Pods-Jade-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jade-Swift-dummy.m"; sourceTree = "<group>"; };
-		1203B45E542B630C61F839D0DD208293 /* Pods-Jade-Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jade-Swift-acknowledgements.plist"; sourceTree = "<group>"; };
 		13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1555620D34B083662E867A34A2D3F81B /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		17DB1E35785C383BCCCD5DB53A42F28E /* Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		180588968820B78133EDF80560AF3BBB /* Pods-JadeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JadeKit-umbrella.h"; sourceTree = "<group>"; };
-		1971D50BACADB9F6B0A8932AB3B35D5C /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
-		20EC7828B4D2137593B0568A1BD1867C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		17E959240F7D7CE7D2C343C43844EBE4 /* Pods-Jade-Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jade-Swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		20A161FF916437DCA2A2700B4B8279BD /* Pods-Jade-Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jade-Swift-resources.sh"; sourceTree = "<group>"; };
 		248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		2918DFC9DC49860EDB7EDD80E57A7E7B /* Pods-JadeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JadeKit.release.xcconfig"; sourceTree = "<group>"; };
-		2E16DC0827E456505EAA922D067B1B72 /* Pods_JadeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JadeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37D56BEEA873D2D853259B58F53E4D09 /* Pods-JadeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JadeKit.modulemap"; sourceTree = "<group>"; };
+		29545B8AA258592B0A41A4A4908FF4DD /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		3C29BE3E59FC8FCBE4E06A139C172AFA /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A16843694371719A615C5A86D27C473 /* SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
-		5AA6A338E5866141EABF829B70E8C3B2 /* Pods-Jade-Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jade-Swift-resources.sh"; sourceTree = "<group>"; };
-		5C82B8CE3BBE24697D2301AC6BBC57BA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E981C93231E9FB41D812EB39A9F9B9F /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		617F657ABB0D4FCB1AB50033DDB95042 /* Pods-Jade-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jade-Swift.release.xcconfig"; sourceTree = "<group>"; };
-		62C62B8BAF5FC132D39CB99005ACA30A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		655A439E4880763D9BDD0D0E7795FAE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68BA3EC4F12EF19FB40CEB6CEAD45CAF /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		71243C965C6FB90F4591FB2CCD6D59A1 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		77C0112B435CDB9C0E52098F72B4D519 /* Pods-Jade-Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jade-Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7CD287B58E03103E396BD1C1B8757C54 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		8B4E4449D94E94B5E431A764B9FC5D06 /* Pods-JadeKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JadeKit-frameworks.sh"; sourceTree = "<group>"; };
-		8CA4246D3772537DBE1F0A3D85D68B1B /* Pods-JadeKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JadeKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DFFE97ABCC8100727916E81DF14BC81 /* Pods-Jade-Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jade-Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E47624F59268285FE6DB4FE01426F97 /* Pods-Jade-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jade-Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		9DFBD13A7D1D3E5C377C861AD9D9C59D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1083293B0F13137B8449EBCA595A37F /* Pods-JadeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JadeKit.debug.xcconfig"; sourceTree = "<group>"; };
 		A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		A5E4907564AD9F2CCC5033A43BD9D782 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		B381A5404E68D4344EA7805B846E4C14 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
 		B55D4EB410E5C4B0F1CC8BBFBD7B0F8A /* libPods-Jade-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jade-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBB773EE62688FFB6741D51B76C99DD5 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		C6F183032CCA717A2ACB8708236B7B2B /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		CE1C0851B75B6F9C052148733205F3F2 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		DA394D425062DF784119EC16E567A0EB /* Pods-JadeKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JadeKit-resources.sh"; sourceTree = "<group>"; };
-		DABB34E3D0BE4055DDDD0EE84FC8E6EB /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		DDF3106D5F5B9B21AC9D5BE575DE72BD /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		DEE1566F07413B5DF2581E7FF2591E87 /* Pods-JadeKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JadeKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E02E7452AD6BCE8D4E78A6AC0011C941 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		E7817F5239B0EAE07FB9B8A6F020D11F /* Pods-JadeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JadeKit-dummy.m"; sourceTree = "<group>"; };
-		F68BE0C5BEDCC9C820441E953FA962A2 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		F7828F51972D9880CCAB5BAB70178A07 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		FA42E7EC46E22C43A5B6AFD65877AAA1 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		FB28A29FF5874F7F88A10C84D6007EEA /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		34991B58757F61BFE5A53602966E5586 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED69FD352CBB498BA95CCFF40CA899B6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		383B4BF839254A82265A1E6D540C9F3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2F8C6CAAE593D8F555D0D54C536E3580 /* Foundation.framework in Frameworks */,
 				317602D7E2B9A957806A009744DBB727 /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		412847266D82A8865FF075E982A58A75 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73A5CA3A1D94E14EE3A927BAB438EB8A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,59 +81,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		086886F16E68B99205AEC03FDA235744 /* Resources */ = {
+		0AD366E1D624CFEB301818A3FBFCAC08 /* Pods-Jade-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				FA42E7EC46E22C43A5B6AFD65877AAA1 /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		14DB252E2E55D45F758AA12B1B970D7A /* Pods-Jade-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				77C0112B435CDB9C0E52098F72B4D519 /* Pods-Jade-Swift-acknowledgements.markdown */,
-				1203B45E542B630C61F839D0DD208293 /* Pods-Jade-Swift-acknowledgements.plist */,
+				8DFFE97ABCC8100727916E81DF14BC81 /* Pods-Jade-Swift-acknowledgements.markdown */,
+				17E959240F7D7CE7D2C343C43844EBE4 /* Pods-Jade-Swift-acknowledgements.plist */,
 				0F9C755F7A60AFD53BEBA738DF7AF17F /* Pods-Jade-Swift-dummy.m */,
-				5AA6A338E5866141EABF829B70E8C3B2 /* Pods-Jade-Swift-resources.sh */,
+				20A161FF916437DCA2A2700B4B8279BD /* Pods-Jade-Swift-resources.sh */,
 				8E47624F59268285FE6DB4FE01426F97 /* Pods-Jade-Swift.debug.xcconfig */,
 				617F657ABB0D4FCB1AB50033DDB95042 /* Pods-Jade-Swift.release.xcconfig */,
 			);
 			name = "Pods-Jade-Swift";
 			path = "Target Support Files/Pods-Jade-Swift";
-			sourceTree = "<group>";
-		};
-		2A32C17F5E5732D66434C08109EFB6E1 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				0EE110D0432D9BF661221E292D49B3E2 /* Alamofire.swift */,
-				B381A5404E68D4344EA7805B846E4C14 /* Download.swift */,
-				1971D50BACADB9F6B0A8932AB3B35D5C /* Error.swift */,
-				06B95CC0C5A6E6F723BBA058D2001AB5 /* Manager.swift */,
-				1555620D34B083662E867A34A2D3F81B /* MultipartFormData.swift */,
-				BBB773EE62688FFB6741D51B76C99DD5 /* ParameterEncoding.swift */,
-				A5E4907564AD9F2CCC5033A43BD9D782 /* Request.swift */,
-				DABB34E3D0BE4055DDDD0EE84FC8E6EB /* ResponseSerialization.swift */,
-				71243C965C6FB90F4591FB2CCD6D59A1 /* Result.swift */,
-				DDF3106D5F5B9B21AC9D5BE575DE72BD /* ServerTrustPolicy.swift */,
-				E02E7452AD6BCE8D4E78A6AC0011C941 /* Stream.swift */,
-				7CD287B58E03103E396BD1C1B8757C54 /* Upload.swift */,
-				62C62B8BAF5FC132D39CB99005ACA30A /* Validation.swift */,
-				610732B6F1960F100EEB1F4A501A6F13 /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		2C51948D205BAA957BE86E5A73CED961 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E981C93231E9FB41D812EB39A9F9B9F /* SVProgressHUD.xcconfig */,
-				5A16843694371719A615C5A86D27C473 /* SVProgressHUD-Private.xcconfig */,
-				FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */,
-				C6F183032CCA717A2ACB8708236B7B2B /* SVProgressHUD-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -218,19 +103,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		610732B6F1960F100EEB1F4A501A6F13 /* Support Files */ = {
+		6D8EBE4ED0A947EDE73A122C037F0025 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				F68BE0C5BEDCC9C820441E953FA962A2 /* Alamofire.modulemap */,
-				68BA3EC4F12EF19FB40CEB6CEAD45CAF /* Alamofire.xcconfig */,
-				17DB1E35785C383BCCCD5DB53A42F28E /* Alamofire-Private.xcconfig */,
-				F7828F51972D9880CCAB5BAB70178A07 /* Alamofire-dummy.m */,
-				20EC7828B4D2137593B0568A1BD1867C /* Alamofire-prefix.pch */,
-				CE1C0851B75B6F9C052148733205F3F2 /* Alamofire-umbrella.h */,
-				655A439E4880763D9BDD0D0E7795FAE9 /* Info.plist */,
+				CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */,
+				004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */,
+				D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */,
+				A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */,
+				79F6C638D34290E6A5D2358599F396DB /* Resources */,
+				CC93BB5F0CC850BF4538511C14B7D8A8 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		79F6C638D34290E6A5D2358599F396DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB28A29FF5874F7F88A10C84D6007EEA /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -238,83 +129,52 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				90EAC58D21DDCA4C5846BCC2688B3A1F /* Pods */,
+				E19BB65A0199ECFF4E4340E5D6E62384 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				8A54D644F53C168F0832501F594E8CEC /* Targets Support Files */,
+				F5E80AD18CD6807854C79EC3E726D0C0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8A54D644F53C168F0832501F594E8CEC /* Targets Support Files */ = {
+		CC93BB5F0CC850BF4538511C14B7D8A8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				14DB252E2E55D45F758AA12B1B970D7A /* Pods-Jade-Swift */,
-				E31B0F1B2D2BA2ABBC9795F1B4B25EC2 /* Pods-JadeKit */,
+				29545B8AA258592B0A41A4A4908FF4DD /* SVProgressHUD.xcconfig */,
+				5A16843694371719A615C5A86D27C473 /* SVProgressHUD-Private.xcconfig */,
+				FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */,
+				3C29BE3E59FC8FCBE4E06A139C172AFA /* SVProgressHUD-prefix.pch */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		90EAC58D21DDCA4C5846BCC2688B3A1F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2A32C17F5E5732D66434C08109EFB6E1 /* Alamofire */,
-				CF6BE1C9ACB9769E160B01542FF4239C /* SVProgressHUD */,
-			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C82B8CE3BBE24697D2301AC6BBC57BA /* Alamofire.framework */,
-				2E16DC0827E456505EAA922D067B1B72 /* Pods_JadeKit.framework */,
 				B55D4EB410E5C4B0F1CC8BBFBD7B0F8A /* libPods-Jade-Swift.a */,
 				13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF6BE1C9ACB9769E160B01542FF4239C /* SVProgressHUD */ = {
+		E19BB65A0199ECFF4E4340E5D6E62384 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */,
-				004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */,
-				D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */,
-				A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */,
-				086886F16E68B99205AEC03FDA235744 /* Resources */,
-				2C51948D205BAA957BE86E5A73CED961 /* Support Files */,
+				6D8EBE4ED0A947EDE73A122C037F0025 /* SVProgressHUD */,
 			);
-			path = SVProgressHUD;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		E31B0F1B2D2BA2ABBC9795F1B4B25EC2 /* Pods-JadeKit */ = {
+		F5E80AD18CD6807854C79EC3E726D0C0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9DFBD13A7D1D3E5C377C861AD9D9C59D /* Info.plist */,
-				37D56BEEA873D2D853259B58F53E4D09 /* Pods-JadeKit.modulemap */,
-				DEE1566F07413B5DF2581E7FF2591E87 /* Pods-JadeKit-acknowledgements.markdown */,
-				8CA4246D3772537DBE1F0A3D85D68B1B /* Pods-JadeKit-acknowledgements.plist */,
-				E7817F5239B0EAE07FB9B8A6F020D11F /* Pods-JadeKit-dummy.m */,
-				8B4E4449D94E94B5E431A764B9FC5D06 /* Pods-JadeKit-frameworks.sh */,
-				DA394D425062DF784119EC16E567A0EB /* Pods-JadeKit-resources.sh */,
-				180588968820B78133EDF80560AF3BBB /* Pods-JadeKit-umbrella.h */,
-				A1083293B0F13137B8449EBCA595A37F /* Pods-JadeKit.debug.xcconfig */,
-				2918DFC9DC49860EDB7EDD80E57A7E7B /* Pods-JadeKit.release.xcconfig */,
+				0AD366E1D624CFEB301818A3FBFCAC08 /* Pods-Jade-Swift */,
 			);
-			name = "Pods-JadeKit";
-			path = "Target Support Files/Pods-JadeKit";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		738A6C9906E09ABB43E8AA2398014F23 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4F08A107BA32B06B999D9C95D37A8DC /* Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A6E03BC82D209DE558C3932FF43FC1F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,34 +184,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D60034761BB38534013538A17038804F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				44E598F8053CD92ED380E1565F0946C0 /* Pods-JadeKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1938F41059E06C511373D9330EABA3D1 /* Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD4B32AFA4FB2EA1B4212561E4E440E8 /* Build configuration list for PBXNativeTarget "Alamofire" */;
-			buildPhases = (
-				668FFBD9D9E19BAF8BC8A18B8670EE67 /* Sources */,
-				412847266D82A8865FF075E982A58A75 /* Frameworks */,
-				738A6C9906E09ABB43E8AA2398014F23 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Alamofire;
-			productName = Alamofire;
-			productReference = 5C82B8CE3BBE24697D2301AC6BBC57BA /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		318BA943B848B586E0304036AAD7FFA9 /* Pods-Jade-Swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FC3BAE34469DDBEBC3BC9204B3C9598 /* Build configuration list for PBXNativeTarget "Pods-Jade-Swift" */;
@@ -362,30 +197,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				5EF807AACAD10BF6A861D9F2A0D98B19 /* PBXTargetDependency */,
+				983E81EF9AF8B9E95142D67B82C1C779 /* PBXTargetDependency */,
 			);
 			name = "Pods-Jade-Swift";
 			productName = "Pods-Jade-Swift";
 			productReference = B55D4EB410E5C4B0F1CC8BBFBD7B0F8A /* libPods-Jade-Swift.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		6F78271064F436DEFD17625A28B10A90 /* Pods-JadeKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6EF4D56EB07E9C2A5CEE17841B48C9E /* Build configuration list for PBXNativeTarget "Pods-JadeKit" */;
-			buildPhases = (
-				74D81EA3949546D2FA7983ACE2E890B9 /* Sources */,
-				34991B58757F61BFE5A53602966E5586 /* Frameworks */,
-				D60034761BB38534013538A17038804F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				670A1C8583EEC7512D20A62307D0F56F /* PBXTargetDependency */,
-			);
-			name = "Pods-JadeKit";
-			productName = "Pods-JadeKit";
-			productReference = 2E16DC0827E456505EAA922D067B1B72 /* Pods_JadeKit.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
@@ -425,9 +242,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1938F41059E06C511373D9330EABA3D1 /* Alamofire */,
 				318BA943B848B586E0304036AAD7FFA9 /* Pods-Jade-Swift */,
-				6F78271064F436DEFD17625A28B10A90 /* Pods-JadeKit */,
 				B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */,
 			);
 		};
@@ -444,27 +259,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		668FFBD9D9E19BAF8BC8A18B8670EE67 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E920487C7E9A02A6693829FC15A40A58 /* Alamofire-dummy.m in Sources */,
-				4B469E34DCB86C10104EC37719EAEC18 /* Alamofire.swift in Sources */,
-				9CB54A87EB8450388480FBCD78EF0A7B /* Download.swift in Sources */,
-				30B806CE8CB4709E38D8842E43BCD1AB /* Error.swift in Sources */,
-				4E4D5F60723047C68CC6E159F77BE83C /* Manager.swift in Sources */,
-				D9739929BC8EBCCD207268A93B18842E /* MultipartFormData.swift in Sources */,
-				0C18C363302C0F35A51737B3D84E1ABC /* ParameterEncoding.swift in Sources */,
-				183191831CCA01126B9B33F3B62D546E /* Request.swift in Sources */,
-				E40611D1D0588DD30D3860F1183C14E1 /* ResponseSerialization.swift in Sources */,
-				6ACE1B6B39F79D2F0AF5719C8E4BD6B0 /* Result.swift in Sources */,
-				060EC8E87A83D17CF9AA6AA1BD4A0843 /* ServerTrustPolicy.swift in Sources */,
-				C610A8A805B35C980F122246D9EDA860 /* Stream.swift in Sources */,
-				F717729EAC7B9BA5D817D1DF40CBB4F0 /* Upload.swift in Sources */,
-				7D4E3F194DA407CB5BE4C82020C1F77A /* Validation.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		69D22A2DD67590681D8551B24FBCE6E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,146 +267,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74D81EA3949546D2FA7983ACE2E890B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A18D1D2BAA34B1A7F641068746658297 /* Pods-JadeKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5EF807AACAD10BF6A861D9F2A0D98B19 /* PBXTargetDependency */ = {
+		983E81EF9AF8B9E95142D67B82C1C779 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
 			target = B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */;
-			targetProxy = 9069E287513687605802EBAD0856A51A /* PBXContainerItemProxy */;
-		};
-		670A1C8583EEC7512D20A62307D0F56F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 1938F41059E06C511373D9330EABA3D1 /* Alamofire */;
-			targetProxy = 86C73CDA8A1FFAA0CBD6F671268BDAF8 /* PBXContainerItemProxy */;
+			targetProxy = 4D922D7D8002C970FC827890A603D0D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FD0B90EE8BC21E152E8C557CE8A8685 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17DB1E35785C383BCCCD5DB53A42F28E /* Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.2;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		410BA8E9A988837DCC2EE00EC84EC357 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1083293B0F13137B8449EBCA595A37F /* Pods-JadeKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JadeKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JadeKit/Pods-JadeKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_JadeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		559FD3CFEDE9A5A5EB98B33C0C83468D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17DB1E35785C383BCCCD5DB53A42F28E /* Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.2;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6A3AEE3182AA223395A07C71F41065CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2918DFC9DC49860EDB7EDD80E57A7E7B /* Pods-JadeKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JadeKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JadeKit/Pods-JadeKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_JadeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		83552FD4F3EAC84A538DFF6E2BAF9F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E47624F59268285FE6DB4FE01426F97 /* Pods-Jade-Swift.debug.xcconfig */;
@@ -776,24 +442,6 @@
 			buildConfigurations = (
 				DC0AB86C68D395E5A1B2BCBF94455BFE /* Debug */,
 				E306C872DB371BCB6363DB365D786249 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AD4B32AFA4FB2EA1B4212561E4E440E8 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0FD0B90EE8BC21E152E8C557CE8A8685 /* Debug */,
-				559FD3CFEDE9A5A5EB98B33C0C83468D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D6EF4D56EB07E9C2A5CEE17841B48C9E /* Build configuration list for PBXNativeTarget "Pods-JadeKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				410BA8E9A988837DCC2EE00EC84EC357 /* Debug */,
-				6A3AEE3182AA223395A07C71F41065CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
